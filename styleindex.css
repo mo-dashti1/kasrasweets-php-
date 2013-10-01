@@ -1,0 +1,484 @@
+/* Under Develope Page */
+body {
+	background            : url('images/background.png');
+	background-position   : top center;
+	background-repeat     : repeat-y;
+} 
+
+body div.siteoftheday { 
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+div.container {
+	min-height            : 630px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+/*.................................*header*....................................*/
+header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	margin-top            : 9px;
+	height                : 242px;
+}
+
+/*.............*menu*...............*/
+nav.linkmenu {
+	margin-top            : 77px;
+	margin-left           : 270px;	
+}
+
+nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -45px;
+}
+nav.linkmenu li.home a:hover {
+	background-position   :-2px -45px;
+}
+
+nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -15px;
+}
+
+nav.linkmenu li.ourrange a:hover {
+	background-position   :-245px -45px;
+}
+
+nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+} 
+
+nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*..................................*panel1*..................................*/
+section.backimg div {
+	position             : absolute;
+	width                : 950px;
+	height               : 398px;
+	top      : 0;
+	right    :0;
+	bottom   :0;
+	padding-top: 100px;
+	z-index  :-2;
+	background-position :460px 50px;
+	background-repeat   :no-repeat;
+} 
+
+section.backimg div h2 {
+	color: #CC0D1C;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+section.backimg div p {
+	margin-top: 15px;
+	color: #8D7E6F;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-size: 17px;
+}
+
+section.backimg a.view {
+	font-family: 'Tangerine', cursive;
+	font-weight: normal;
+	display: block;
+	padding: 35px 0;
+	font-size: 30px;
+	color: #54301A;
+	text-decoration: none;
+	background-image: url('images/strike.png');
+	background-repeat     : no-repeat;
+	background-position:90px 70px;
+	cursor: pointer;
+}
+
+section.backimg a:hover {
+	color: #CC0D1C;
+}
+
+section.backimg span {
+	margin-left: 3px;
+	color: #CC0D1C;
+}
+
+section.backimg article {
+	float:left;
+	margin-top: 40px;
+	width: 380px;
+	height: 200px;
+}
+
+section.backimg article div {
+	float: left;
+	margin-top: 60px;
+	margin-right: 800px;
+}
+
+section.backimg div a.view:hover {
+	color: #CC0D1C;
+	text-decoration: none;
+}
+
+section.backimg div a span {
+	color: color: #CC0D1C;
+	cursor: pointer;
+	font-family: 'CoralRegular',sans-serif;
+	font-weight: normal;
+	text-transform: none;
+} 
+
+/*..................................*panel2*..................................*/
+div.panel2 {
+	background-position: center 0;
+
+}
+
+div.panel2 div.scroller {
+	background-image      : url('images/scroller.png');
+	margin-left           : 200px;
+}
+
+div.panel2 menu li.leftspan {
+	width: 20px;
+	min-height: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+div.panel2 li.leftspan a:hover {
+	color:  #54301A;
+}
+
+div.panel2 menu.menup2 li {
+	float: left;
+	height: 130px;
+	overflow: hidden;
+	text-align: center;
+	margin-left: 20px;
+}
+
+div.panel2 menu.menup2 li a {
+	background-image      : url('images/scroller-items.jpg');
+	padding-top           : 100px;
+    padding-right: 2px;
+	display: block;
+	height: 95px;
+	margin-top: 10px;
+	font-family : 'Satisfy', cursive; 
+	font-size : 22px;
+	color: #54301A;
+	text-decoration: none;
+}
+
+div.panel2 li.celebration a {
+	width                 : 110px;
+	background-position   : -35px -137px;
+}
+
+div.panel2 li.celebration a:hover {
+	background-position   :-35px -2px;
+}
+
+div.panel2 li.children a {
+	width                 : 110px;
+	background-position   : -165px -137px;
+}
+
+div.panel2 li.children a:hover {
+	background-position   :-165px -2px;
+}
+
+div.panel2 li.dessert a {
+	width                 : 110px;
+	background-position   : -308px -137px;
+}
+
+div.panel2 li.dessert a:hover {
+	background-position   :-308px -2px;
+}
+
+div.panel2 li.savouries a {
+	width                 : 110px;
+	background-position   : -440px -137px;
+}
+
+div.panel2 li.savouries a:hover { 
+	background-position   :-440px -2px;
+}
+
+div.panel2 li.health a {
+	width                 : 110px;
+	background-position   : -581px -137px;
+}
+
+div.footer li.health a:hover {
+	background-position   :-581px -2px;
+}
+
+div.panel2 li.cupcake a {
+	width                 : 110px;
+	background-position   : -726px -137px;
+}
+
+div.panel2 li.cupcake a:hover {
+	background-position   :-726px -2px;
+}
+
+div.panel2 div.slideshow {
+	margin-left: 200px;
+	margin-top            : 8px;
+}
+
+div.panel2 div.picp2 {
+	margin-top            : 180px;
+	margin-right          : 40px;
+	background-image: url('images/ornament_1-background.png');
+	width: 439px;
+	height: 190px;
+	border: 1px solid #fff;
+	border-radius: 40px; 
+}
+
+div.panel2 div.picp2 a.leftpanel {
+	width: 201px;
+	background-image: url('images/catering-background.png');
+	background-repeat: no-repeat;
+	margin-left: 17px;
+	margin-top: 15px;
+}
+
+div.panel2 div.picp2 div.rightpanel {
+	margin-top           : 10px;
+	margin-left          : 222px;
+	width: 200px;
+}
+div.panel2 div.picp2 div.rightpanel h3 {
+	color: #fff;
+}
+
+div.panel2 div.picp2 div.rightpanel p {
+	color: #fff;
+	font-size: 13px;
+}
+
+div.panel2 div.boxp2 {
+	margin-right: 500px;
+	margin-top           : 180px;
+	margin-left          : 27px;
+}
+
+div.panel2 div.boxp2 article.textareap2 {
+	margin-top           : 5px;
+	margin-left          : 5px;
+	width                : 380px;
+}
+
+div.panel2 article.textareap2 h2.titlep2 {
+	margin-left          : 5px;
+	color: white;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+div.panel2 article.textareap2 p.textp2 {
+	margin-left          : 5px;
+	font-size: 12px;
+	color: white;
+	line-height: 18px;
+}
+
+div.panel2 div.linkp2 {
+	margin-top: 45px;
+	margin-left: 45px;
+}
+
+div.panel2 div.linkp2 a {
+	padding-top: 20px;
+	margin-left : 10px;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	font-family: 'Satisfy', cursive; 
+}
+
+div.panel2 div.linkp2 span {
+	margin-left: 5px;
+	color: #CC0D1C;
+	font-size: 24px;	
+}
+
+
+
+/*footer..........................................................*/
+
+div.footerimg {
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;	
+}
+
+footer.wholeimage {
+	padding-top			: 60px;
+}
+
+div.copypanels {
+	border-top			: dashed 1px #8d7e6f;
+}
+
+div.copypanels p {
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 15px;
+	font-size			: 12px;
+}
+
+div.wholetext {
+	z-index: 2 !important;
+}
+
+footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+} 
+
+div.addresstext h5 {
+	color				: #CC0D1C;
+	font-size			: 16px;
+
+} 
+
+div.addresstext p {
+	color				: #54301A;
+	font-size			: 15px;
+}
+
+div.addresstext section.openhours h4 {
+	color				: #CC0D1C;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 
+}
+
+section.openhours ul.wevent li span {
+	color				: #54301A !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: #54301A;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+section div.wcard h4 { 
+	color				: #CC0D1C;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 
+}
+
+section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: #54301A;
+}
+
+div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #54301A ;
+}
+
+div.adr p.faxtel {
+	white-space			: pre;
+	color				: #54301A!important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+div.adr p.faxtel span { 
+	color				:#54301A;
+}
+
+div.adr p.email {
+	white-space			: pre;
+	color				: #54301A !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+div.adr p.email span {
+	color				: #CC0D1C;
+}
+
+div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+}

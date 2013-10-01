@@ -1,0 +1,5009 @@
+/* ....................Under Develope Page...................... */
+body {
+	background            : url('images/background.png');
+	background-position   : top center;
+	background-repeat     : repeat-y;
+} 
+
+body div.siteoftheday { 
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+div.container {
+	min-height            : 630px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+/*.................................*header*....................................*/
+header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	margin-top            : 9px;
+	height                : 242px;
+}
+
+/*.............*menu*...............*/
+nav.linkmenu {
+	margin-top            : 72px;
+	margin-left           : 270px;	
+}
+
+nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -45px;
+}
+nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -15px;
+}
+
+nav.linkmenu li.ourrange a:hover {
+	background-position   :-245px -45px;
+}
+
+nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+} 
+
+nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*..................................*panel1*..................................*/
+
+section.backimg div {
+	position             : absolute;
+	width                : 950px;
+	height               : 398px;
+	top      : 0;
+	bottom   :0;
+	padding: 0px 150px 0 0px;
+	z-index  :-2;
+	background-position :500px top;
+	background-repeat   :no-repeat;
+	margin-top: 200px;
+} 
+
+section.backimg div h2 {
+	color: #CC0D1C;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+section.backimg div p {
+	margin-top: 15px;
+	color: #8D7E6F;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-size: 17px;
+}
+
+section.backimg a.view {
+	font-family: 'Tangerine', cursive;
+	font-weight: normal;
+	display: block;
+	padding: 35px 0;
+	font-size: 30px;
+	color: #54301A;
+	text-decoration: none;
+	background-image: url('images/strike.png');
+	background-repeat     : no-repeat;
+	background-position:90px 70px;
+	cursor: pointer;
+}
+
+section.backimg a:hover {
+	color: #CC0D1C;
+}
+
+section.backimg span {
+	margin-left: 3px;
+	color: #CC0D1C;
+	cursor: pointer;
+	font-family: 'CoralRegular',sans-serif;
+}
+
+section.backimg article {
+	float:left;
+	margin-top: 70px;
+	width: 380px;
+	height: 200px;
+}
+
+section.backimg article div {
+	float: left;
+	margin-top: 60px;
+	margin-right: 800px;
+}
+
+section.backimg div a.view:hover {
+	color: #CC0D1C;
+	text-decoration: none;
+}
+
+/*..................................*panel2*..................................*/
+div.footer {
+	background-position: center 0;
+
+}
+
+div.footer div.scroller {
+	background-image      : url('images/scroller.png');
+	margin-left           : 285px;
+}
+
+div.footer menu li.leftspan {
+	width: 20px;
+	min-height: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+div.footer li.leftspan a:hover {
+	color:  #54301A;
+}
+
+div.footer menu.menup2 li {
+	float: left;
+	height: 130px;
+	overflow: hidden;
+	text-align: center;
+	margin-left: 20px;
+}
+
+div.footer menu.menup2 li a {
+	background-image      : url('images/scroller-items.jpg');
+	padding-top           : 100px;
+    padding-right: 2px;
+	display: block;
+	height: 95px;
+	margin-top: 10px;
+	font-family : 'Satisfy', cursive; 
+	font-size : 22px;
+	color: #54301A;
+	text-decoration: none;
+}
+
+div.footer li.celebration a {
+	width                 : 110px;
+	background-position   : -35px -137px;
+}
+
+div.footer li.celebration a:hover {
+	background-position   :-35px -2px;
+}
+
+div.footer li.children a {
+	width                 : 110px;
+	background-position   : -165px -137px;
+}
+
+div.footer li.children a:hover {
+	background-position   :-165px -2px;
+}
+
+div.footer li.dessert a {
+	width                 : 110px;
+	background-position   : -308px -137px;
+}
+
+div.footer li.dessert a:hover {
+	background-position   :-308px -2px;
+}
+
+div.footer li.savouries a {
+	width                 : 110px;
+	background-position   : -440px -137px;
+}
+
+div.footer li.savouries a:hover { 
+	background-position   :-440px -2px;
+}
+
+div.footer li.health a {
+	width                 : 110px;
+	background-position   : -581px -137px;
+}
+
+div.footer li.health a:hover {
+	background-position   :-581px -2px;
+}
+
+div.footer li.cupcake a {
+	width                 : 110px;
+	background-position   : -726px -137px;
+}
+
+div.footer li.cupcake a:hover {
+	background-position   :-726px -2px;
+}
+
+div.footer div.slideshow {
+	margin-left: 285px;
+	margin-top            : 8px;
+}
+
+div.footer div.picp2 {
+	margin-top            : 10px;
+	margin-right          : 40px;
+	background-image: url('images/ornament_1-background.png');
+	width: 439px;
+	height: 190px;
+	border: 1px solid #fff;
+	border-radius: 40px; 
+}
+
+div.footer div.picp2 a.leftpanel {
+	width: 201px;
+	background-image: url('images/catering-background.png');
+	background-repeat: no-repeat;
+	margin-left: 17px;
+	margin-top: 15px;
+}
+
+div.footer div.picp2 div.rightpanel {
+	margin-top           : 10px;
+	margin-left          : 222px;
+	width: 200px;
+}
+div.footer div.picp2 div.rightpanel h3 {
+	color: #fff;
+}
+
+div.footer div.picp2 div.rightpanel p {
+	color: #fff;
+	font-size: 13px;
+}
+
+div.footer div.boxp2 {
+	margin-right: 500px;
+	margin-top           : 10px;
+	margin-left          : 27px;
+}
+
+div.footer div.boxp2 article.textareap2 {
+	margin-top           : 5px;
+	margin-left          : 5px;
+	width                : 380px;
+}
+
+div.footer article.textareap2 h2.titlep2 {
+	margin-left          : 5px;
+	color: white;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+div.footer article.textareap2 p.textp2 {
+	margin-left : 5px;
+	font-size: 12px;
+	color: white;
+	line-height: 18px;
+}
+
+div.footer div.linkp2 {
+	margin-top: 45px;
+	margin-left: 45px;
+}
+
+div.footer div.linkp2 a {
+	padding-top: 20px;
+	margin-left : 10px;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	font-family: 'Satisfy', cursive; 
+}
+
+div.footer div.linkp2 span {
+	margin-left: 5px;
+	color: #CC0D1C;
+	font-size: 24px;	
+}
+
+a.copyright {
+	width: 277px;
+	margin-top: 70px;
+	margin-lef :10px;
+	color: black;
+	border-top : 1px dashed black;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+/*footer..........................................................*/
+
+div.footerimg {
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;	
+}
+
+footer.wholeimage {
+	padding-top			: 75px;
+}
+
+div.copypanels {
+	border-top			: dashed 1px #8d7e6f;
+}
+
+div.copypanels p {
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 15px;
+	font-size			: 12px;
+}
+
+div.wholetext {
+	z-index: 2 !important;
+}
+
+footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+} 
+
+div.addresstext h5 {
+	color				: #CC0D1C;
+	font-size			: 16px;
+} 
+
+div.addresstext p {
+	color				: #54301A;
+	font-size			: 15px;
+}
+
+div.addresstext section.openhours h4 {
+	color				: #CC0D1C;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 
+}
+
+section.openhours ul.wevent li span {
+	color				: #54301A !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: #54301A;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+section div.wcard h4 { 
+	color				: #CC0D1C;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 
+}
+
+section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: #54301A;
+}
+
+div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #54301A ;
+}
+
+div.adr p.faxtel {
+	white-space			: pre;
+	color				: #54301A!important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+div.adr p.faxtel span { 
+	color				:#54301A;
+}
+
+div.adr p.email {
+	white-space			: pre;
+	color				: #54301A !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+div.adr p.email span {
+	color				: #CC0D1C;
+}
+
+div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+}
+
+/*about.........................................*/
+
+
+body.about {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.about div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.about div.container {
+	min-height            : 710px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.about header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.about nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+	
+}
+
+body.about nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.about nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.about nav.linkmenu li.home a:hover{
+	background-position   : -2px -45px;
+}
+
+body.about nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -45px;
+}
+
+body.about nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -15px;
+}
+
+body.about nav.linkmenu li.ourrange a:hover {
+	background-position   :-245px -45px;
+}
+
+body.about nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.about nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.about nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.about nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.about nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.about nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.about div.content3 {
+	height: 400px;
+}
+
+body.about div.content3 img {
+	border: 5px solid;
+	border-radius: 5px;
+	margin-left: 90px;
+}
+
+body.about section.text {
+	float: left;
+	width: 450px;
+	height: 300px;
+	margin-left: 100px;
+}
+
+body.about section.text h2 {
+	font-size: 22px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: red;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+body.about section.text p {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+body.about div.content {
+	height 				: 650px;
+}
+
+body.about section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.about p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.about menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width			: 276px;
+}
+
+body.about menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.about menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.about menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+} 
+
+body.about menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.about div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+	
+}
+
+body.about footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.about div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+
+} 
+
+body.about section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.about section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 15px;
+	font-size			: 12px;
+}
+
+body.about div.wholetext {
+	z-index: 2 !important;
+}
+
+body.about footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+}
+
+body.about div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.about div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.about div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 
+}
+
+body.about section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.about section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.about section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.about section div.wcard h4 {
+	color				: white;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 	
+}
+
+body.about section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.about div.wcard div.adr p {
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.about div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.about div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.about div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+} 
+
+body.about div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.about div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+/*catering........................................*/
+/*header.................................*/
+
+body.catering {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.catering div.siteoftheday { 
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.catering div.container {
+	min-height            : 710px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.catering header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.catering nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+	
+}
+
+body.catering nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.catering nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+
+body.catering nav.linkmenu li.home a:hover{
+	background-position   : -2px -45px;
+}
+
+body.catering nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.catering nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.catering nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -15px;
+}
+
+body.catering nav.linkmenu li.ourrange a:hover {
+	background-position   :-245px -45px;
+}
+
+body.catering nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -45px;
+}
+
+body.catering nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.catering nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.catering nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.catering nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.catering div.content3 {
+	height: 400px;
+}
+
+ body.catering section.slideshow {
+	width: 450px;
+	margin-left: 400px;
+}
+
+body.catering section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+body.catering section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+body.catering section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+body.catering section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+body.catering section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 500ms ease-out;
+	-moz-transform: scale(0.95);
+	-moz-transition: all 500ms ease-out;
+	-o-transform: scale(0.95);
+	-o-transition: all 500ms ease-out;
+}
+
+body.catering .step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	opacity:1;
+}
+
+body.catering .step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	opacity:1;
+}
+
+body.catering .step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	opacity:1;
+}
+
+body.catering .step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	opacity:1;
+}
+
+body.catering .step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	opacity:1;
+}
+
+body.catering section.text {
+	float: left;
+	width: 350px;
+	height: 350px;
+	margin-left: 100px;
+}
+
+body.catering section.text h2 {
+	font-size: 28px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: red;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+body.catering section.text p {
+	font-size: 16px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+body.catering div.content {
+	height 				: 650px;
+}
+
+body.catering section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.catering p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.catering menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+}
+
+body.catering menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.catering menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.catering menu.linkmenu li.celebrationcake {
+	background-position: 0 0 !important;
+
+}
+
+body.catering menu.linkmenu li.celebrationcake a {
+	color				: white !important;
+	display				: block;
+}
+
+body.catering menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.catering menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.catering div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;	
+}
+
+body.catering footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.catering div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.catering section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.catering section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 15px;
+	font-size			: 12px;
+}
+
+body.catering div.wholetext {
+	z-index: 2 !important;
+}
+
+body.catering footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;	
+}
+
+body.catering div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.catering div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.catering div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 17px;
+}
+
+body.catering section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.catering section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.catering section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.catering section div.wcard h4 {
+	color				: white;
+	font-size			: 17px;
+}
+
+body.catering section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.catering div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.catering div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+} 
+
+body.catering div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.catering div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.catering div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.catering div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*celebration cake............................*/
+
+body.celebration {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.celebration div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.celebration div.container {
+	min-height            : 710px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.celebration header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.celebration nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+}
+
+body.celebration nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.celebration nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+nav.linkmenu li.home a:hover {
+	background-position   :-2px -45px;
+}
+body.celebration nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.celebration nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.celebration nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.celebration nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.celebration nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.celebration nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.celebration nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.celebration nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.celebration nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.celebration {
+	background-image: url('images/background.png');
+	color: white;
+}
+
+body.celebration .gallery{
+	width: 550px;
+}
+
+body.celebration .gallery li {
+	float: left;
+	margin-right: 15px;
+}
+
+body.celebration .gallery li a {
+	display: block;
+	border: 8px solid #FAFAFA;
+	border-bottom-width: 30px;
+	border-radius: 2px;
+}
+
+body.celebration section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.celebration p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.celebration menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.celebration menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.celebration menu.linkmenu li{
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.celebration menu.linkmenu li.celebrationcake{
+	background-position: 0 0 !important;
+
+}
+
+body.celebration menu.linkmenu li.celebrationcake a {
+	color				: white !important;
+	display				: block;
+}
+
+body.celebration menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.celebration menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.celebration div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+	
+}
+
+body.celebration footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.celebration div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.celebration section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.celebration section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 15px;
+	font-size			: 12px;
+}
+
+body.celebration div.wholetext {
+	z-index: 2 !important;
+}
+
+body.celebration footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+}
+
+body.celebration div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.celebration div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.celebration div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.celebration section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.celebration section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.celebration section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.celebration section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.celebration section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.celebration div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.celebration div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.celebration div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.celebration div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.celebration div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.celebration div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*children.............................................*/
+
+body.children {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.children body div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.children div.container {
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.children header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.children nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+}
+
+body.children nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+} 
+
+body.children nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+nav.linkmenu li.home a:hover {
+	background-position   :-2px -45px;
+}
+body.children nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.children nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.children nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.children nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.children nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+} 
+
+body.children nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.children nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.children nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.children section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.children p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.children menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.children menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.children menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.children menu.linkmenu li.childrencake {
+	background-position: 0 0 !important;
+
+}
+
+body.children menu.linkmenu li.childrencake a {
+	color				: white !important;
+	display				: block;
+}
+
+body.children menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.children menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.children div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+	
+}
+
+body.children footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.children div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.children section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.children section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.children div.wholetext {
+	z-index: 2 !important;
+}
+
+body.children footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.children div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.children div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.children div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.children section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	
+	margin-left			: 15px;
+}
+body.children section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.children section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.children section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.children section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.children div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.children div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.children div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.children div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.children div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.children div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*..........text1......................*/
+
+body.children div.text1 div.viewchildrencake h4 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+
+body.children div.text1 div.viewchildrencake p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+
+}
+
+body.children div.text1 div.viewchildrencake p a {
+	text-decoration		: none;
+	color				: #54301a;
+}
+
+body.children body.children div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+
+body.children div.text1 div.panels h5 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+
+body.children div.text1 div.panels p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
+}
+
+body.children div.text1 div.panels div.viewpanel1 {
+	border-bottom		: gray 2px solid;
+}
+
+body.children div.text1 div.panels div.viewpanel2 {
+	border-bottom		: gray 2px solid;
+}
+
+body.children div.text1 div.panels div.viewpanel3 {
+	border-bottom		: gray 2px solid;
+}
+
+/*contact.................................................*/
+
+body.contact {
+	background            : url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.contact div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.contact div.container {
+	min-height            : 710px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.contact header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.contact nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+}
+
+body.contact  nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.contact nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+
+body.contact nav.linkmenu li.home a:hover {
+	background-position   : -2px -45px;
+}
+
+body.contact nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.contact nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.contact nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -15px;
+}
+
+body.contact nav.linkmenu li.ourrange a:hover {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.contact nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.contact nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.contact nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -45px;
+}
+
+body.contact nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.contact nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.contact div.content {
+	height 					: 600px;
+}
+
+body.contact section.sidebar {
+	float					: left;
+	width					: 330px;
+	margin-top				: 20px;
+	padding-left			: 40px;
+}
+
+body.contact form {
+	display					: block;
+}
+
+body.contact form input {
+	margin-bottom			: 20px;
+	color					: #54301A;
+	font-size				: 12px;
+	border 					: none;
+	border-bottom			: 1px solid #E6E5E4;
+	width					: 300px;
+	min-height				: 30px;
+}
+
+body.contact input::-webkit-input-placeholder {
+    color					: #54301A;
+}
+
+body.contact input:-moz-placeholder {
+    color					: #54301A;
+}
+body.contact input:-o-placeholder {
+	 color					: #54301A;
+}
+
+body.contact form textarea {
+	color					: #54301A;
+	font-size				: 12px;
+	border 					: 1px solid #E6E5E4;
+	width					: 300px;
+	min-height				: 150px;
+}
+
+body.contact form button {
+	cursor					: pointer;
+	background-image		: url('images/buttons.png');
+	background-repeat		: no-repeat;
+	width					: 160px;
+	min-height				: 40px;
+	display					: block;
+	border 					: none;
+	background-position		: 0 -26px;
+	margin-left				: 150px;
+}
+
+body.contact form button:hover{
+	cursor: pointer;
+	background-position: -164px -26px;
+}
+
+body.contact section.map {
+	width					: 455px;
+	float					: right;
+	display					: block;
+	border 					: 1px solid gray;
+	border-radius			: 6px;
+}
+
+body.contact section.map article h2 {
+	color					: #CC0D1C;
+	font-size				: 20px;
+	text-transform			: uppercase;
+	margin-top				: 10px;
+	margin-left				: 20px;
+}
+
+body.contact section.map article p {
+	margin-left				: 20px;
+	margin-top				: 20px;
+	margin-bottom			: 20px;
+}
+
+body.contact section.map article p span {
+	color					: #CC0D1C;
+	font-size				: 17px;
+	text-transform			: uppercase;
+}
+
+body.contact section.map iframe {
+	border 					: 10px solid white;
+	border-radius			: 5px;
+	margin-top				: 20px;
+}
+
+/*.footer..........................................................*/
+
+body.contact div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;	
+}
+
+body.contact footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.contact div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.contact section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.contact section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 15px;
+	font-size			: 12px;
+}
+
+body.contact div.wholetext {
+	z-index: 2 !important;
+}
+
+body.contact footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+}
+
+body.contact div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.contact div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.contact div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 17px;
+}
+
+body.contact section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.contact section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.contact section.openhours ul.wevent li p { 
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.contact section div.wcard h4 {
+	color				: white;
+	font-size			: 17px;
+}
+
+body.contact section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.contact div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.contact div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.contact div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.contact div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.contact div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.contact div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*cup cake.............................................*/
+
+body.cupcake {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.cupcake div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.cupcake div.container {
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.cupcake header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.cupcake nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;	
+}
+
+body.cupcake nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.cupcake nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.cupcake nav.linkmenu li.home a:hover {
+	background-position   :-2px -45px;
+}
+body.cupcake nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.cupcake nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.cupcake nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.cupcake nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.cupcake nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.cupcake nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.cupcake nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.cupcake nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.cupcake nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.cupcake section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.cupcake p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+body.cupcake menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.cupcake menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.cupcake menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+}
+
+body.cupcake menu.linkmenu li.cupcakes {
+	background-position: 0 0 !important;
+}
+
+body.cupcake menu.linkmenu li.cupcakes a {
+	color				: white !important;
+	display				: block;
+}
+
+body.cupcake menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.cupcake menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.cupcake div.footerimg{
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+	
+}
+
+body.cupcake footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.cupcake div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+
+}
+
+body.cupcake section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.cupcake section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.cupcake div.wholetext {
+	z-index: 2 !important;
+}
+
+body.cupcake footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.cupcake div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.cupcake div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.cupcake div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.cupcake section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.cupcake section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.cupcake section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.cupcake section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.cupcake section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.cupcake div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.cupcake div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.cupcake div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.cupcake div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.cupcake div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.cupcake div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*..........text1......................*/
+
+body.cupcake div.text1 div.viewchildrencake h4 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+
+body.cupcake div.text1 div.viewchildrencake p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+}
+
+body.cupcake div.text1 div.viewchildrencake p a {
+	text-decoration		: none;
+	color				: #54301a;
+}
+
+body.cupcake div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+
+body.cupcake div.text1 div.panels h5 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+
+body.cupcake div.text1 div.panels p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
+}
+
+body.cupcake div.text1 div.panels div.viewpanel1 {
+	border-bottom		: gray 2px solid
+}
+
+body.cupcake div.text1 div.panels div.viewpanel2 {
+	border-bottom		: gray 2px solid
+}
+
+body.cupcake div.text1 div.panels div.viewpanel3 {
+	border-bottom		: gray 2px solid
+}
+
+/*dessert cake...............................................*/
+
+body.dessert {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.dessert div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.dessert div.container {
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.dessert header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.dessert nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+}
+
+body.dessert nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.dessert nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.dessert nav.linkmenu li.home a:hover {
+	background-position   :-2px -45px;
+}
+body.dessert nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.dessert nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.dessert nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.dessert nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.dessert nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.dessert nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.dessert nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.dessert nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.dessert nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.dessert section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.dessert p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+/* left menu........................................................*/
+body.dessert menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+}
+
+body.dessert menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.dessert menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.dessert menu.linkmenu li.dessertcake {
+	background-position: 0 0 !important;
+
+}
+
+body.dessert menu.linkmenu li.dessertcake a {
+	color				: white !important;
+	display				: block;
+}
+
+body.dessert menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.dessert menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.dessert div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+}
+
+body.dessert footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.dessert div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.dessert section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.dessert section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.dessert div.wholetext {
+	z-index: 2 !important;
+}
+
+body.dessert footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.dessert div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+}
+
+body.dessert div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.dessert div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.dessert section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.dessert section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.dessert section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.dessert section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.dessert section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.dessert div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.dessert div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.dessert div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.dessert div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.dessert div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.dessert div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*..........text1......................*/
+
+body.dessert div.text1 div.viewchildrencake h4 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+
+body.dessert div.text1 div.viewchildrencake p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+}
+
+body.dessert div.text1 div.viewchildrencake p a {
+	text-decoration		: none;
+	color				: #54301a;
+}
+
+body.dessert div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+
+body.dessert div.text1 div.panels h5 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+
+body.dessert div.text1 div.panels p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
+}
+
+/*ourrange..........................................*/
+body.ourrange {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.ourrange div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.ourrange div.container {
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.ourrange header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.ourrange nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;	
+}
+
+body.ourrange nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.ourrange nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.ourrange nav.linkmenu li.home a:hover{
+	background-position   : -2px -45px;
+}
+body.ourrange nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.ourrange nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.ourrange nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.ourrange nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.ourrange nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.ourrange nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.ourrange nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.ourrange nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.ourrange nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+/*content..........................................................*/
+
+body.ourrange body {
+	background-image: url('images/background.png');
+	color: white;
+}
+
+body.ourrange .gallery {
+	width: 550px;
+}
+
+body.ourrange .gallery li {
+	float: left;
+	margin-right: 15px;
+}
+
+body.ourrange .gallery li a {
+	display: block;
+	border: 8px solid #FAFAFA;
+	border-bottom-width: 30px;
+	border-radius: 2px;
+}
+
+body.ourrange section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.ourrange p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.ourrange menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+}
+
+body.ourrange menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.ourrange menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.ourrange menu.linkmenu li.celebrationcake {
+	background-position: 0 0 !important;
+
+}
+
+body.ourrange menu.linkmenu li.celebrationcake a {
+	color				: white !important;
+	display				: block;
+}
+
+body.ourrange menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.ourrange menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.ourrange div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+	
+}
+
+body.ourrange footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.ourrange div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+
+}
+
+body.ourrange section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.ourrange section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 15px;
+	font-size			: 12px;
+}
+
+body.ourrange div.wholetext { 
+	z-index: 2 !important;
+}
+
+body.ourrange footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.ourrange div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.ourrange div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.ourrange div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.ourrange section.openhours ul.wevent li span  {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.ourrange section.openhours ul.wevent li.firstope  {
+	margin-top			: 20px;
+}
+
+body.ourrange section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.ourrange section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.ourrange section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.ourrange div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.ourrange div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.ourrange div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.ourrange div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.ourrange div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.ourrange div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*lightboxmain..............................................*/
+
+body.lightbox {
+	background-image: url('images/background.png');
+	color: white;
+}
+
+body.lightbox .gallery{
+	width: 550px;
+}
+
+body.lightbox .gallery li {
+	float: left;
+	margin-right: 15px;
+}
+
+body.lightbox .gallery li a {
+	display: block;
+	border: 8px solid #FAFAFA;
+	border-bottom-width: 30px;
+	border-radius: 2px;
+}
+
+/*lightbox...............................................*/
+
+
+body.lightbox #lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+  opacity: 0.85;
+  display: none;
+}
+
+body.lightbox #lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-weight: normal;
+}
+
+body.lightbox #lightbox img {
+  width: auto;
+  height: auto;
+}
+
+body.lightbox #lightbox a img {
+  border: none;
+}
+
+body.lightbox .lb-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+body.lightbox .lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body.lightbox .lb-container {
+  padding: 10px;
+}
+
+body.lightbox .lb-loader {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+body.lightbox .lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+body.lightbox .lb-container > .nav {
+  left: 0;
+}
+
+body.lightbox .lb-nav a {
+  outline: none;
+}
+
+body.lightbox .lb-prev, .lb-next {
+  cursor:pointer;
+  width: 25%;
+  height: 60%;
+  margin-top: 20%;
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"); /* Trick IE into showing hover */
+  display: block;
+}
+
+body.lightbox .lb-prev {
+  left: 0;
+  float: left;
+}
+
+body.lightbox .lb-next {
+  right: 0;
+  float: right;
+}
+
+body.lightbox .lb-prev:hover {
+  background: url('images/lightbox/prev.png') left 48% no-repeat;
+}
+
+body.lightbox .lb-next:hover {
+  background: url('images/lightbox/next.png') right 48% no-repeat;
+}
+
+body.lightbox .lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -ms-border-bottom-left-radius: 4px;
+  -o-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -ms-border-bottom-right-radius: 4px;
+  -o-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+body.lightbox .lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body.lightbox .lb-data {
+  padding: 0 10px;
+  color: #bbbbbb;
+}
+
+body.lightbox .lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+body.lightbox .lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+body.lightbox .lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 11px;
+}
+
+body.lightbox .lb-data .lb-close {
+  width: 35px;
+  float: right;
+  padding-bottom: 0.7em;
+  outline: none;
+}
+
+body.lightbox .lb-data .lb-close:hover {
+  cursor: pointer;
+}
+
+/*health...........................................*/
+
+body.health {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.health div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.health div.container {
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.health header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.health nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+}
+
+body.health nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.health nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+nav.linkmenu li.home a:hover {
+	background-position   :-2px -45px;
+}
+body.health nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.health nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.health nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.health nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.health nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.health nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+ body.health nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.health nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.health nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+body.health section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.health p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+body.health menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.health menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.health menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.health menu.linkmenu li.healthcake {
+	background-position: 0 0 !important;
+
+}
+
+body.health menu.linkmenu li.healthcake a {
+	color				: white !important;
+	display				: block;
+}
+
+body.health menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+body.health menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+
+body.health div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+	
+}
+
+body.health footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.health div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.health section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.health section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.health div.wholetext {
+	z-index: 2 !important;
+}
+
+body.health footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.health div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.health div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+ body.health div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.health section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.health section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.health section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.health section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.health section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.health div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.health div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.health div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.health div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.health div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.health div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*..........text1......................*/
+
+body.health div.text1 div.viewchildrencake h4 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+
+body.health div.text1 div.viewchildrencake p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+
+}
+
+body.health div.text1 div.viewchildrencake p a {
+	text-decoration		: none;
+	color				: #54301a;
+}
+
+body.health div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+
+body.health div.text1 div.panels h5 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+
+body.health div.text1 div.panels p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
+}
+
+body.health div.text1 div.panels div.viewpanel1 {
+	border-bottom		: gray 2px solid
+}
+
+body.health div.text1 div.panels div.viewpanel2 {
+	border-bottom		: gray 2px solid
+}
+
+body.health div.text1 div.panels div.viewpanel3 {
+	border-bottom		: gray 2px solid
+}
+
+/*recpies...........................................*/
+
+body.homemade {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.homemade div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.homemade div.container {
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.homemade header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.homemade nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+	
+}
+
+body.homemade nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.homemade nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.homemade nav.linkmenu li.home a:hover {
+  	background-position   :-2px -45px;
+}
+
+body.homemade nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.homemade nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.homemade nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.homemade nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.homemade nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.homemade nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.homemade nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.homemade nav.linkmenu li.f-b a {
+ 	width               : 27px;
+  	background-image    :url('images/f-b.png');
+ 	height           : 25px;
+  	margin-left      : 10px;
+  	margin-top       : 3px;
+}
+
+body.homemadenav.linkmenu li.f-b a:hover {
+  	background-position     : 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.homemade section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.homemade p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.homemade menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.homemade menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.homemade menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+}
+
+body.homemade menu.linkmenu li.homemadecookies {
+	background-position: 0 0 !important;
+
+}
+
+body.homemade menu.linkmenu li.homemadecookies a {
+	color				: white !important;
+	display				: block;
+} 
+
+body.homemade menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.homemade menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+body.homemade div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+}
+
+body.homemade footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.homemade div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.homemade section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.homemade section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.homemade div.wholetext {
+	z-index: 2 !important;
+}
+
+body.homemade footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+}
+
+body.homemade div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+body.homemade div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.homemade div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	
+	font-family			: 'Satisfy', cursive;
+}
+body.homemade section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.homemade section.openhours ul.wevent li.firstopen{
+	margin-top			: 20px;
+}
+
+body.homemade section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.homemade section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.homemade section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.homemade div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.homemade div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.homemade div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.homemade div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.homemade div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.homemade div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*..........text1......................*/
+
+body.homemade div.text1 div.viewchildrencake h4 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+
+body.homemade div.text1 div.viewchildrencake p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+
+}
+
+body.homemade div.text1 div.viewchildrencake p a {
+	text-decoration		: none;
+	color				: #54301a;
+}
+
+body.homemade div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+
+body.homemade div.text1 div.panels h5 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+
+body.homemade div.text1 div.panels p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
+}
+
+body.homemade div.text1 div.panels div.viewpanel1 {
+	border-bottom		: gray 2px solid
+}
+
+body.homemade div.text1 div.panels div.viewpanel2 {
+	border-bottom		: gray 2px solid
+}
+
+body.homemade div.text1 div.panels div.viewpanel3 {
+	border-bottom		: gray 2px solid
+}
+
+/*traditional............................................*/
+
+body.traditional {
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body.traditional div.siteoftheday {
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+body.traditional div.container {
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+body.traditional header.headpage {
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+body.traditional nav.linkmenu {
+	margin-top            : 70px;
+	margin-left           : 270px;
+}
+
+body.traditional nav.linkmenu li a {
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+body.traditional nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.traditional nav.linkmenu li.home a:hover {
+	background-position   : -2px -45px;
+}
+
+body.homemade nav.linkmenu li.home a:hover {
+  	background-position   :-2px -45px;
+}
+
+body.traditional nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+
+body.traditional nav.linkmenu li.aboutus a:hover {
+	background-position   :-130px -45px;
+}
+
+body.traditional nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+
+body.traditional nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+body.traditional nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+body.traditional nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+body.traditional nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+body.traditional nav.linkmenu li.f-b a {
+ 	width               : 27px;
+  	background-image    :url('images/f-b.png');
+ 	height           	: 25px;
+  	margin-left      	: 10px;
+  	margin-top       	: 3px;
+}
+
+body.traditional.linkmenu li.f-b a:hover {
+  	background-position     : 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.traditional section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.traditional p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.traditional menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.traditional menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.traditional menu.linkmenu li{
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.traditional menu.linkmenu li.traditionalsweets{
+	background-position: 0 0 !important;
+
+}
+
+body.traditional menu.linkmenu li.traditionalsweets a {
+	color				: white !important;
+	display				: block;
+}
+
+body.traditional menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+body.traditional menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+body.traditional div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+}
+
+body.traditional footer.wholeimg {
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+body.traditional div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+}
+
+body.traditional section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.traditional section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.traditional div.wholetext {
+	z-index: 2 !important;
+}
+
+body.traditional footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.traditional div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+}
+
+body.traditional div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.traditional div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.traditional section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.traditional section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.traditional section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.traditional section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.traditional section div.wcard p{
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.traditional div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.traditional div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.traditional div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.traditional div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.traditional div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.traditional div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+
+/*..........text1......................*/
+
+body.traditional div.text1 div.viewchildrencake h4 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+
+body.traditional div.text1 div.viewchildrencake p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+}
+
+body.traditional div.text1 div.viewchildrencake p a {
+	text-decoration		: none;
+	color				: #54301a;
+}
+
+body.traditional div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+
+body.traditional div.text1 div.panels h5 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+
+body.recpies div.text1 div.panels p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
+}
+
+body.recpies div.text1 div.panels div.viewpanel1 {
+	border-bottom		: gray 2px solid;
+}
+
+body.recpies div.text1 div.panels div.viewpanel2 {
+	border-bottom		: gray 2px solid;
+}
+
+body.traditional div.text1 div.panels div.viewpanel3 {
+	border-bottom		: gray 2px solid;
+}
+
+body.traditional div.text1 div.panels div.viewpanel4 {
+	border-bottom		: gray 2px solid;
+}
+
+body.traditional div.text1 div.panels div.viewpanel5 {
+	border-bottom		: gray 2px solid;
+}
+
+body.traditional div.text1 div.panels div.viewpanel6 {
+	border-bottom		: gray 2px solid;
+}
+
+/*recpies......................................*/
+body.recipes{
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+body.recipes div.siteoftheday{
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+body.recipes div.container{
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+body.recipes header.headpage{
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+body.recipes nav.linkmenu{
+	margin-top            : 77px;
+	margin-left           : 270px;
+	
+}
+
+body.recipes nav.linkmenu li a{
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+body.recipes nav.linkmenu li.home a{
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.recipes nav.linkmenu li.home a:hover{
+	background-position   :-2px -45px;
+}
+body.recipes nav.linkmenu li.home a:hover{
+	background-position   :-2px -45px;
+}
+body.recipes nav.linkmenu li.aboutus a{
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+body.recipes nav.linkmenu li.aboutus a:hover{
+	background-position   :-130px -45px;
+}
+body.recipes nav.linkmenu li.ourrange a{
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+body.recipes nav.linkmenu li.catering a{
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+body.recipes nav.linkmenu li.catering a:hover{
+	background-position   :-375px -45px;
+}
+body.recipes nav.linkmenu li.contact a{
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+body.recipes nav.linkmenu li.contact a:hover{
+	background-position   :-480px -45px;
+}
+body.recipes nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.recipes nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.recipes section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.recipes p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.recipes menu.linkmenu li:hover{
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.recipes menu.linkmenu li a{
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.recipes menu.linkmenu li{
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.recipes menu.linkmenu li.recipes{
+	background-position: 0 0 !important;
+
+}
+
+body.recipes menu.linkmenu li.recipes a{
+	color				: white !important;
+	display				: block;
+}
+
+body.recipes menu.linkmenu li:hover a{
+	color				: white;
+	display				: block;
+}
+
+body.recipes menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+body.recipes div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+}
+
+body.recipes footer.wholeimg{
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+
+}
+
+body.recipes div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+
+}
+
+body.recipes section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.recipes section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.recipes div.wholetext {
+	z-index: 2 !important;
+}
+
+body.recipes footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.recipes div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+}
+
+body.recipes div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.recipes div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.recipes section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.recipes section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.recipes section.openhours ul.wevent li p{
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.recipes section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.recipes section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.recipes div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.recipes div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.recipes div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.recipes div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+body.recipes div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.recipes div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+/*..........text1......................*/
+
+body.recipes div.text1 div.viewchildrencake h4 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+
+body.recipes div.text1 div.viewchildrencake p {
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+
+}
+
+body.recipes div.text1 div.viewchildrencake p a {
+	text-decoration		: none;
+	color				: #54301a;
+}
+
+body.recipes div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+
+body.recipes div.text1 div.panels h5 {
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+div.text1 div.panels p{
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
+}
+
+/*.........slidimg............*/
+
+body.recipes div.text1 div.panels div.slideimg {
+	width: 400px;
+	height: 300px;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
+
+body.recipes div.text1 div.panels div.slideimg {
+	width    : 600px;
+	margin   : 0 auto;
+	overflow : hidden;
+}
+
+body.recipes div.slideimg .bus{
+	width : 1000px;
+}
+
+body.recipes div.slideimg .bus > div {
+	float    : left;
+	width    : 150px;
+	overflow : hidden;
+}
+
+body.recipes div.slideimg .bus > div:last-child {
+	padding-right : 300px;
+}
+
+body.recipes div.slideimg .bus > div > img {
+	display: block;
+}
+
+body.recipes div.slideimg .bus > div {
+	-webkit-transition : width 700ms;
+	-ms-transition : width 700ms; 
+	-o-transition : width 700ms; 
+	-moz-transition : width 700ms; 
+}
+
+body.recipes div.slideimg:hover .bus > div {
+	width    : 50px;
+}
+
+body.recipes div.slideimg .bus > div:hover {
+	width    : 450px;
+}
