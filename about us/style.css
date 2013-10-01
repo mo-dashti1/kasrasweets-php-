@@ -1,0 +1,394 @@
+body {
+	background 				: url('../images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+
+body div.siteoftheday {
+	background-image      : url('../images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+
+div.container {
+	min-height            : 710px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+
+header.headpage {
+	background-image      : url('../images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+
+nav.linkmenu {
+	margin-top            : 77px;
+	margin-left           : 270px;
+	
+}
+
+nav.linkmenu li a {
+	background-image      : url('../images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+
+nav.linkmenu li.home a {
+	width                 : 125px;
+	background-position   : -2px -15px;
+} 
+nav.linkmenu li.aboutus a {
+	width                 : 115px;
+	background-position   :-130px -45px;
+}
+
+nav.linkmenu li.ourrange a {
+	width                 : 130px;
+	background-position   :-130px -15px;
+} 
+nav.linkmenu li.ourrange a:hover {
+	background-position   :-245px -45px;
+} 
+
+nav.linkmenu li.catering a {
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+
+nav.linkmenu li.catering a:hover {
+	background-position   :-375px -45px;
+}
+
+nav.linkmenu li.contact a {
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+
+nav.linkmenu li.contact a:hover {
+	background-position   :-480px -45px;
+}
+
+nav.linkmenu li.f-b a {
+	width                 : 35px;
+	background-position   :-570px -15px;
+}
+
+nav.linkmenu li.f-b a:hover {
+	background-position   :-570px -49px;
+}
+
+/*content..........................................................*/
+div.content3 {
+	height: 400px;
+}
+
+section.slideshow {
+	width: 450px;
+	float: right;
+}
+
+section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+.step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+section.text {
+	float: left;
+	width: 350px;
+	height: 350px;
+	margin-left: 30px;
+}
+
+section.text h2 {
+	font-size: 16px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: red;
+	margin-bottom: 20px;
+	margin-top: 50px;
+
+}
+
+section.text p {
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+div.content2 {
+	height 				: 650px;
+}
+
+section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+menu.linkmenu li:hover {
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+menu.linkmenu li a {
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+menu.linkmenu li {
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('../images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+menu.linkmenu li:hover a {
+	color				: white;
+	display				: block;
+}
+
+menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*.footer..........................................................*/
+div.footerimg {
+	background-image	: url('../images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+	
+}
+
+footer.wholeimg {
+	background-image	: url('../images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+
+div.imgpatch {
+	background-image	: url('../images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+
+}
+
+section.copyright1 {
+	background-image	: url('../images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+}
+
+div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+
+}
+
+div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 20px;
+	font-family			: 'Satisfy', cursive;
+
+}
+
+section.openhours ul.wevent li span {
+	color				: #d8cfc6 ;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+section.openhours ul.wevent li p {
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+section div.wcard h4 {
+	color				: white;
+	font-size			: 20px;
+	font-family			: 'Satisfy', cursive;
+	
+}
+
+section div.wcard p {
+	margin-top			: 20px;
+	font-size			: 30px;
+	font-weight			: normal;
+	color				: white;
+}
+
+div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 10px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+} 
+
+div.adr p.faxtel{
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+div.adr p.email span{
+	color				:#d8cfc6;
+}
+
+div.wholetext div.mapimg {
+	background-image	: url('../images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+} 
