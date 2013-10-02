@@ -5322,6 +5322,5 @@ body.cart div.wholetext div.mapimg {
 
 /*admin page...........................................*/
 body.admin nav.linkmenu li.contact a{
-background-position: -478px -15px !important;
-width: 90px;
+background-position: 0px 0px !important;
 }
