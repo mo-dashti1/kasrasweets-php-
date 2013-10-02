@@ -2068,7 +2068,7 @@ body.contact form input {
 	min-height				: 30px;
 }
 
-body.contact input::-webkit-input-placeholder {
+body.contact input::-webkit-input-placeholder, {
     color					: #54301A;
 }
 
@@ -2087,7 +2087,7 @@ body.contact form textarea {
 	min-height				: 150px;
 }
 
-body.contact form button {
+body.contact form button.mt2 {
 	cursor					: pointer;
 	background-image		: url('images/buttons.png');
 	background-repeat		: no-repeat;
@@ -2099,7 +2099,7 @@ body.contact form button {
 	margin-left				: 150px;
 }
 
-body.contact form button:hover{
+body.contact form button.mt2:hover{
 	cursor: pointer;
 	background-position: -164px -26px;
 }
@@ -5321,7 +5321,3 @@ body.cart div.wholetext div.mapimg {
 
 
 /*admin page...........................................*/
-body.admin nav.linkmenu li.contact a{
-background-position: -478px -15px !important;
-width: 90px;
-}
