@@ -5007,3 +5007,303 @@ body.recipes div.slideimg:hover .bus > div {
 body.recipes div.slideimg .bus > div:hover {
 	width    : 450px;
 }
+/*cart...........................................................................*/
+body.cart{
+	background 				: url('images/background.png');
+	background-position		:top center;
+	background-repeat		: repeat-y;
+}
+body.cart div.siteoftheday{
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+body.cart div.container{
+	min-height            : 1000px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+body.cart header.headpage{
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+body.cart nav.linkmenu{
+	margin-top            : 77px;
+	margin-left           : 270px;
+	
+}
+
+body.cart nav.linkmenu li a{
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+	display               : block;
+}
+body.cart nav.linkmenu li.home a{
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+body.cart nav.linkmenu li.home a:hover{
+	background-position   :-2px -45px;
+}
+body.cart nav.linkmenu li.home a:hover{
+	background-position   :-2px -45px;
+}
+body.cart nav.linkmenu li.aboutus a{
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+body.cart nav.linkmenu li.aboutus a:hover{
+	background-position   :-130px -45px;
+}
+body.cart nav.linkmenu li.ourrange a{
+	width                 : 130px;
+	background-position   :-245px -45px;
+}
+body.cart nav.linkmenu li.catering a{
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+body.cart nav.linkmenu li.catering a:hover{
+	background-position   :-375px -45px;
+}
+body.cart nav.linkmenu li.contact a{
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+body.cart nav.linkmenu li.contact a:hover{
+	background-position   :-480px -45px;
+}
+body.cart nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
+}
+
+body.cart nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
+
+/*content..........................................................*/
+
+body.cart section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+body.cart p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
+}
+
+/* left menu........................................................*/
+
+body.cart menu.linkmenu li:hover{
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+
+body.cart menu.linkmenu li a{
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+}
+
+body.cart menu.linkmenu li{
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+
+body.cart menu.linkmenu li.cart{
+	background-position: 0 0 !important;
+
+}
+
+body.cart menu.linkmenu li.cart a{
+	color				: white !important;
+	display				: block;
+}
+
+body.cart menu.linkmenu li:hover a{
+	color				: white;
+	display				: block;
+}
+
+body.cart menu.linkmenu a:visited li {
+	background-position	: 0 0;
+}
+
+/*footer..........................................................*/
+body.cart div.footerimg {
+	background-image	: url('images/ornament_1-background.png');
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;
+}
+
+body.cart footer.wholeimg{
+	background-image	: url('images/ornament_2-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+
+}
+
+body.cart div.imgpatch {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 79px;
+	width				: 100%;
+	position 			: absolute;
+	margin-top			: 4px;
+	z-index				:1;
+
+}
+
+body.cart section.copyright1 {
+	background-image	: url('images/ornament_1-background.png');
+	background-position	: center 0;
+	background-repeat	: repeat-x;
+	min-height			: 100px;
+	width				: 100%;
+	clear				: both;
+	border-top			: dashed 1px #8d7e6f;
+	margin-top			: 83px
+}
+
+body.cart section.copyright1 div.copypanels p {
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+}
+
+body.cart div.wholetext {
+	z-index: 2 !important;
+}
+
+body.cart footer.wholeimg div.wholetext {
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+}
+
+body.cart div.addresstext h5 {
+	color				: white;
+	font-size			: 14px;
+}
+
+body.cart div.addresstext p {
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+
+body.cart div.addresstext section.openhours h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.cart section.openhours ul.wevent li span {
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+
+body.cart section.openhours ul.wevent li.firstopen {
+	margin-top			: 20px;
+}
+
+body.cart section.openhours ul.wevent li p{
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.cart section div.wcard h4 {
+	color				: white;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
+}
+
+body.cart section div.wcard p {
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+
+body.cart div.wcard div.adr p {
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+
+body.cart div.adr p.faxtel {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+
+body.cart div.adr p.faxtel span {
+	color				:#d8cfc6;
+}
+
+body.cart div.adr p.email {
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+body.cart div.adr p.email span {
+	color				:#d8cfc6;
+}
+
+body.cart div.wholetext div.mapimg {
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
+/*..........text1......................*/
