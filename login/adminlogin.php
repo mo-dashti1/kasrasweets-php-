@@ -20,6 +20,18 @@
 			</form>	
 		</div>
 	</section>
-</div>	
+</div>
+<?php 
+$user=$_POST['username'];
+$password=$_POST['password'];
+if($username==KasraSweet && $password==246810){
+ mysql_connect("localhost","root","");
+ mysql_select_db("kasraproject");
+ mysql_query("select username , pass from adminlogin");
+	 if (username==$user && pass==$password) {
+		echo "har har har !!!";
+	 }
+}
+?>	
 </body>
 </html>
