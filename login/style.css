@@ -1,0 +1,30 @@
+/* ....................Under Develope Page...................... */
+body {
+	background            : url('images/background.png');
+	background-position   : top center;
+	background-repeat     : repeat-y;
+} 
+
+
+div.container {
+	min-height            : 630px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+section.adminlogin{
+	margin-top: 100px;
+}
+div.chef{
+	background-image: url('images/header1 copy.png');
+	width: 255px;
+	height: 215px;
+	float: left;
+}
+section.adminlogin form{
+	margin-left: 150px;
+	margin-top: 90px;
+}
+div.br{
+width: 500px;
+height: 500px;
+}
